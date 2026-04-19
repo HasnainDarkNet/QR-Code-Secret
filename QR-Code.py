@@ -95,10 +95,8 @@ def interactive_menu():
     
     while True:
         print("\033[96m" + "═"*70 + "\033[0m")
-        print("\033[93m  [1] 🔐 Create Encrypted QR (Secret Message)\033[0m")
-        print("\033[92m  [2] 📝 Create Plain QR\033[0m")
-        print("\033[94m  [3] 🔓 Decrypt QR Message\033[0m")
-        print("\033[91m  [4] ❌ Exit\033[0m")
+        print("\033[92m  [1] 📝 Create Plain QR\033[0m")
+        print("\033[91m  [2] ❌ Exit\033[0m")
         print("\033[96m" + "═"*70 + "\033[0m")
         
         choice = input("\n\033[92m[?] Select option > \033[0m")
